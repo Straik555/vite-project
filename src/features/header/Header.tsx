@@ -4,4 +4,6 @@ const Header: FC = () => {
   return <div>Header</div>;
 };
 
-export default Header;
+const Component: FC = Header;
+
+export default Component;
