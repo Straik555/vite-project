@@ -7,6 +7,4 @@ const Board: FC = () => {
   return <div>Board {params.boardId}</div>;
 };
 
-const Component: FC = Board;
-
-export default Component;
+export default Board;
