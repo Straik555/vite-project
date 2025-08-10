@@ -1,9 +1,4 @@
-import type { FC } from "react";
+import Login from "./Login";
+import Register from "./Register";
 
-export const LoginPage: FC = () => {
-  return <div>Login page</div>;
-};
-
-export const RegisterPage: FC = () => {
-  return <div>Register page</div>;
-};
+export default { Login, Register };
